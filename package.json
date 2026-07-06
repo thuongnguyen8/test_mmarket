@@ -2,11 +2,11 @@
   "name": "cho-momoer",
   "version": "1.0.0",
   "description": "Chợ MoMoer - Internal Marketplace for MoMo Employees",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "dev": "python3 -m http.server 8000",
-    "build": "echo 'Static site - no build needed'",
-    "preview": "python3 -m http.server 8000"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Static site - no build needed'"
   },
   "keywords": [
     "marketplace",
@@ -15,5 +15,11 @@
     "secondhand"
   ],
   "author": "Thuộng Nguyễn",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
