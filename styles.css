@@ -1,14 +1,40 @@
 :root {
-  --color-primary: #FF5F8A;
-  --color-text: #303233;
-  --color-text-secondary: #727272;
-  --color-text-hint: #999;
-  --color-border: #E8E8E8;
-  --color-bg: #FAFAFA;
-  --color-bg-surface: #FFFFFF;
-  --color-pink-light: #FFF0F5;
-  --color-mint: #00BFA5;
-  --color-yellow: #FFE680;
+  /* MoMo Design System Colors */
+  --pink-momo-branding: #a50064;
+  --color-primary: #eb2f96;
+  --color-secondary: #f7acd5;
+
+  --text-default: #303233;
+  --text-secondary: #484848;
+  --text-hint: #727272;
+  --text-disable: #c6c6c6;
+
+  --bg-default: #f2f2f6;
+  --bg-surface: #ffffff;
+  --bg-tonal: #fdeaf4;
+  --bg-pressed: #dfdfe6;
+
+  --border-default: #e8e8e8;
+  --border-disable: #f9f9f9;
+
+  --mint-highlight: #13c2c2;
+  --yellow-badge: #ffcc00;
+  --gold-badge: #ffb31a;
+
+  --error-primary: #ff264f;
+  --error-container: #ffd5de;
+
+  /* Deprecated mappings for compatibility */
+  --color-text: var(--text-default);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-hint: var(--text-hint);
+  --color-border: var(--border-default);
+  --color-bg: var(--bg-default);
+  --color-bg-surface: var(--bg-surface);
+  --color-pink-light: var(--bg-tonal);
+  --color-mint: var(--mint-highlight);
+  --color-yellow: var(--yellow-badge);
+
   --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.08);
   --shadow-dark: 0 8px 24px rgba(0, 0, 0, 0.15);
   --radius-s: 8px;
@@ -111,7 +137,7 @@ body {
   font-size: 12px;
   color: var(--color-primary);
   background: var(--color-yellow);
-  border: 1px dashed #FFCD4E;
+  border: 1px dashed var(--gold-badge);
   padding: 4px 9px;
   border-radius: var(--radius-m);
   transform: rotate(-4deg);

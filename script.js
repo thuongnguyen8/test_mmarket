@@ -8,7 +8,7 @@ const mockProducts = [
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 230 230'%3E%3Crect fill='%23FFF3E0' width='230' height='230'/%3E%3Ccircle cx='115' cy='115' r='70' fill='%23FF9800'/%3E%3Ctext x='50%' y='50%' font-size='60' fill='%23FFF' text-anchor='middle' dominant-baseline='central'%3E🍲%3C/text%3E%3C/svg%3E",
     seller: "Linh Nguyễn",
     dept: "Product",
-    avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23FF5F8A' cx='20' cy='20' r='20'/%3E%3Ctext x='50%' y='50%' font-size='20' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='central'%3EL%3C/text%3E%3C/svg%3E"
+    avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23eb2f96' cx='20' cy='20' r='20'/%3E%3Ctext x='50%' y='50%' font-size='20' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='central'%3EL%3C/text%3E%3C/svg%3E"
   },
   {
     id: 2,
@@ -236,7 +236,7 @@ function handlePostSubmit(e) {
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 230 230'%3E%3Crect fill='%23E0E0E0' width='230' height='230'/%3E%3Ctext x='50%' y='50%' font-size='60' fill='%23999' text-anchor='middle' dominant-baseline='central'%3E📸%3C/text%3E%3C/svg%3E",
     seller: "Thuộng Nguyễn",
     dept: "Product",
-    avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23FF5F8A' cx='20' cy='20' r='20'/%3E%3Ctext x='50%' y='50%' font-size='20' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='central'%3ETN%3C/text%3E%3C/svg%3E"
+    avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23eb2f96' cx='20' cy='20' r='20'/%3E%3Ctext x='50%' y='50%' font-size='20' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='central'%3ETN%3C/text%3E%3C/svg%3E"
   };
 
   mockProducts.unshift(newProduct);
