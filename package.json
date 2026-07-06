@@ -1,0 +1,19 @@
+{
+  "name": "cho-momoer",
+  "version": "1.0.0",
+  "description": "Chợ MoMoer - Internal Marketplace for MoMo Employees",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "marketplace",
+    "momo",
+    "internal",
+    "secondhand"
+  ],
+  "author": "Thuộng Nguyễn",
+  "license": "MIT"
+}
